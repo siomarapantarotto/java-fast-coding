@@ -1,4 +1,4 @@
-public class StringEquality {
+public class EqualingString {
     public static void main(String[] args) {
         String str1 = "hello";
         String str2 = "hello";
