@@ -4,16 +4,17 @@ class HelloWorldMain {
 
     static int j = printWorld();    // no usages
 
-
-    //static int k = printAgain();  // commented
+    //static int k = printAgain();  // intentionally commented
 
     public static void main(String[] args) {
         System.out.println("Main");
     }
+
     public static int printHello(){ // 1 usage
         System.out.println("Hello");
         return 0;
     }
+
     public static int printWorld(){ // 1 usage
         System.out.println("World");
         return 1;
@@ -23,6 +24,7 @@ class HelloWorldMain {
         System.out.println("Again");
         return 1;
     }
+
 }
 /*
 Result:
