@@ -23,14 +23,18 @@ public class EqualingString {
         /**
          * Comparison 3: When using the new keyword to create a string, a new object
          * is created in memory, even if its content is the same as another string.
-         * This means that str5 and str6 will reference different objects in memory,
-         * even though their contents ("hello") are identical.
-         * Result: false - because str5 and str6 are pointing to different memory
-         * locations.
+         * This means that str5 and str6 or str7 and str8 will reference different
+         * objects in memory, even though their contents ("hello") are identical.
+         * Result: false - because str5 and str6 as well str7 and str8 are pointing
+         * to different memory locations.
          */
-        String str5 = new String("Hello");
+        String str5 = "Hello";
         String str6 = new String("Hello");
         System.out.println(str5 == str6);
+
+        String str7 = new String("Hello");
+        String str8 = new String("Hello");
+        System.out.println(str7 == str8);
 
     }
 }
