@@ -1,8 +1,9 @@
 /**
- * This class compares the performance of two loops that iterate over a range of
- * values.
- * Both loops aim to iterate based on the square root of a large number `n`.
+ * This class compares the performance of two loops that iterate over 
+ * a range of values.
  * 
+ * Both loops aim to iterate based on the square root of a large number `n`.
+ *  
  * The key difference lies in how the loops calculate the iteration limit,
  * which has a significant impact on their efficiency.
  */
